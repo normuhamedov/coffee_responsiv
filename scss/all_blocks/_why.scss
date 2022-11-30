@@ -1,0 +1,313 @@
+.why__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2C343E;
+    border-radius: 10px;
+    height: 546px;
+}
+.text__wrapper {
+    width: 540px;
+}
+.why__heading {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-top: 100px;
+    margin-bottom: 32px;  
+}
+.why__text {
+    opacity: 0.8;  
+    margin-bottom: 86px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.combined {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+}
+.why__list {
+    margin-bottom: 72px;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    transform: translate(0, 0);
+}
+.why__items {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 350px;
+    background: #0E8784;
+    border-radius: 8px;
+}
+.shape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 48px 48px 48px;
+}
+.why__images {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 56px;
+}
+.items__heading {
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center; 
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+        max-width: 800px;
+    }
+    .why__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #2C343E;
+        border-radius: 10px;
+        width: 688px;
+        height: 573px;
+    }
+    .text__wrapper {
+        width: 540px;
+        height: 149px;    
+    }
+    .why__heading {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        /* identical to box height, or 150% */
+        
+        text-align: center;
+        
+        color: #FEFCF7;
+        
+        text-align: center;
+        color: #FEFCF7;
+        margin-top: 100px;
+        margin-bottom: 32px;  
+    }
+    .why__text {
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+        margin-bottom: 86px;
+    }
+    .combined {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        width: 344px;
+        height: 50px;
+    }
+    .why__list {
+        margin-top: 150px;
+        margin-bottom: 72px;
+        display: inline;
+        
+        bottom: 0;
+        transform: translate(0, 0);
+    }
+    .why__items {
+       margin-bottom: 24px;
+        width: 573px;
+        height: 180px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+    .shape {
+        display: inline;
+        text-align: left;
+        
+        padding: 70px 41px 41px 48px;
+    }
+    .why__images {
+        width: 55px;
+        height: 56px;
+        margin-left: 50px;
+        margin-top: 62px;
+    }
+    .items__heading {
+        margin-top: -141px ;
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+    .why__media {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        text-align: left;
+        
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .container {
+        max-width: 500px;
+    }
+    .why__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #2C343E;
+        border-radius: 10px;
+        width: 327px;
+        height: 902px;
+        
+    }
+    .text__wrapper {
+        width: 279px;
+        height: 177px;   
+    }
+    .why__heading {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+        /* identical to box height, or 150% */
+        
+        text-align: center;
+        
+        color: #FEFCF7;
+        
+        text-align: center;
+        color: #FEFCF7;
+        margin-top: 64px;
+        margin-bottom: 32px;  
+    }
+    .why__text {
+        font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+/* or 167% */
+
+text-align: center;
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+        margin-bottom: 86px;
+    }
+    .combined {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        width: 212px;
+        height: 75px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .why__list {
+        margin-top: 150px;
+        margin-bottom: 72px;
+        display: inline;
+        
+        bottom: 0;
+        transform: translate(0, 0);
+    }
+    .why__items {
+        margin-bottom: 24px;
+        width: 279px;
+        height: 382px;
+        background: #0E8784;
+        border-radius: 8px;
+    }
+    .shape {
+        
+        
+        
+    
+    }
+
+    .why__images {
+        margin-top: 46px;
+        width: 71px;
+        height: 72px;
+        margin-left: 50px;
+        
+    }
+    .items__heading {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FEFCF7;
+        width: 255px;
+        height: 32px;
+        align-items: center;
+        margin-left: 40px;
+        
+    }
+        
+    .why__media {
+        width: 155px;
+        height: 131px;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 110px;
+    }
+}

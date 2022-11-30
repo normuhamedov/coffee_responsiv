@@ -1,0 +1,209 @@
+.hero {
+    margin-bottom: 136px;
+    
+    &__container {
+        background-image: url(../../img/background_hero.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 6px;
+    }
+    
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        max-width: 493px;
+        margin-left: 85px;
+    }
+    
+    &__nothing-wrapper {
+        margin-top: 117px;
+        margin-bottom: 116px;
+    }
+    
+    &__text {
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        margin-bottom: 56px;
+    }
+    
+    &__heading {
+        
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+        color: #FEFCF7;
+    }
+    
+    
+    &__link {
+    }
+    .hero-heading--similarities {
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    
+    .text--similarities {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .hero {
+        &__nothing-wrapper {
+            max-width: 398px;
+            margin: 104px 0;
+        }
+        
+        &__container {
+            
+        }
+        
+        &__wrapper {
+            margin-left: 58px;
+        }
+        
+        &__text {
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            margin-bottom: 56px;
+        }
+        
+        &__heading {
+            font-size: 48px;
+            line-height: 48px;
+        }
+        
+        
+        &__link {
+        }
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .container {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+    .hero {
+        &__nothing-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 327px;
+            height: 500px;
+            margin: 90px 0;
+        }
+        
+        &__container {
+            
+        }
+        
+        &__wrapper {
+            
+            margin-left: 46px;
+        }
+        
+        &__text {
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            
+            text-align: center;
+        }
+        
+        &__heading {
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            text-align: center;
+            font-size: 40px;
+            line-height: 40px;
+            color: #FEFCF7;
+            margin-bottom: 32px;
+            margin-top: 100px;
+            
+        }
+        
+        
+        &__link {
+            
+            font-family: 'Fraunces 9pt';
+            font-style: normal;
+            font-weight: 900;
+            
+        }
+    }
+    .hero-heading--similarities {
+        font-size: 40px;
+        line-height: 40px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    
+    .text--similarities {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+.hero-heading--similarities {
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.text--similarities {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.link-button {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding: 16px 31px;
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+.link--button:hover {
+    background-color: #66D2CF;
+}
+
+.link--button:active {
+    background-color: #E2DEDB;
+}
+
+
+
+
+
