@@ -877,7 +877,7 @@ template {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 
 .hero__wrapper {
@@ -971,9 +971,12 @@ template {
     max-width: 327px;
     height: 500px;
     margin: 90px 0;
+    margin: 0 auto;
+    margin-left: 0;
   }
   .hero__wrapper {
-    margin-left: 46px;
+    border-radius: 20px;
+    margin-left: 30px;
   }
   .hero__text {
     color: #FEFCF7;
