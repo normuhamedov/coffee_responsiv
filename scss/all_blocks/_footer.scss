@@ -49,3 +49,121 @@
     text-transform: uppercase;
     color: #83888F;
 }
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    .container {
+        max-width: 1100px;
+    }
+    .footer {
+        width: 1280px;
+        margin: 0 auto;
+        background: #2C343E;
+        height: 120px;
+        margin-top: 320px;
+        
+    }
+    .container__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        margin-top: 47px;
+        margin-bottom: 47px;
+    }
+    .logo__footer {
+        margin-left: 85px;
+    }
+    .footer__list {
+        display: flex;
+        align-items: center;
+        margin-left: 103px;
+    }
+    .heade__link-right {
+        margin-right: 24px;
+        
+    }
+    .footer__right {
+        margin-left: 350px;
+    }
+    .header__link {
+        margin: 0;
+    }
+    .header__list {
+        display: flex;
+        align-items: center;
+    }
+    .list__item:not(:last-child) {
+        margin-right: 33px;     
+    }
+    .item__link {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+    }
+}    
+
+
+
+
+@media only screen and (max-width: 500px) {
+    .container {
+        max-width: 500px;
+    }
+    .footer {
+        max-width: 327px;
+        margin: 0 auto;
+        background: #2C343E;
+        height: 346px;
+        margin-top: 1020px;
+        
+        
+    }
+    .container__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .logo__footer {
+        width: 217px;
+        height: 24px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .heade__link-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer__right {
+        display: inline-flex;
+        background: red;
+        margin-left: 117px;
+        margin-top: 49px;
+    }
+ 
+        
+    .item__link {
+        
+    }
+
+    .list__item {
+        align-items: center;
+        margin-bottom: 24px;
+    }
+}    
